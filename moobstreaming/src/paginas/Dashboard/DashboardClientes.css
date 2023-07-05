@@ -1,0 +1,220 @@
+/* Estilos generales del Dashboard */
+.dashboard-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+    padding: 16px;
+    
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 16px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .profile-handle {
+    margin: 0;
+    color: rgb(72, 72, 72);
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .menu-item i {
+    margin-right: 8px;
+  }
+  
+  .menu-item-label {
+    margin: 0;
+  }
+  
+  .sidebar-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main-content {
+    flex: 1;
+    margin: 0 16px;
+  }
+  
+  .tweet {
+    display: flex;
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #171717;
+    color: aliceblue;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tweet-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .tweet-content {
+    flex: 1;
+  }
+  
+  .tweet-input {
+    width: 100%;
+    height: 80px;
+    border: none;
+    resize: none;
+    font-size: 18px;
+  }
+  
+  .tweet-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
+  
+  .tweet-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(238, 1, 129);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(255, 200, 0);
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .widgets {
+    width: 350px;
+    background-color: #171717;
+    color: aliceblue;
+    padding: 16px;
+    border-radius: 16px;
+  }
+  
+  .widget-title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .trending-list,
+  .follow-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .trending-item,
+  .follow-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .follow-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .follow-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .follow-info {
+    flex: 1;
+  }
+  
+  .follow-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .follow-handle {
+    margin: 0;
+    color: gray;
+  }
+  
+  .follow-btn {
+    padding: 4px 12px;
+    border: none;
+    background-color: rgb(238, 1, 129);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .who-to-follow{
+    color: rgb(255, 225, 0);
+    padding-top: 30px;
+  }
+
+  .contentproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(12, 29, 59);
+  }

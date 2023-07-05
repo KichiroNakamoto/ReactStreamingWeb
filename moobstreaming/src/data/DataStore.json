@@ -1,0 +1,21 @@
+[
+    {
+      "name": "admin",
+      "username": "admin",
+      "email": "null",
+      "phone": "null",
+      "age": "null",
+      "password": "admin12345",
+      "role": "Sponsoring company"
+    },
+    {
+      "name": "Pedro",
+      "username": "deathWatcher92",
+      "email": "pedroemmpanadas@gmail.com",
+      "phone": "3241698",
+      "age": "19",
+      "password": "contraseña123",
+      "role": "Viewer"
+    }
+  ]
+  

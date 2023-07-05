@@ -1,0 +1,134 @@
+
+
+.films-container {
+    padding: 20px;
+  }
+  
+  h4 {
+    color: white;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    width: 50%;
+    background-color: rgb(238, 1, 129);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .posters-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-poster {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .poster-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .poster-title {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .poster-rating {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+.separadorBusqueda {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(227, 171, 3);
+    
+}
+
+
+/*Banner*/
+
+  .banner {
+    height: 778px;
+    background-image: url('../../assets/img/bannerfilms.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-overlay {
+    left: 0;
+    margin-top: 30px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #ffffff;
+  }
+  
+  .banner-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: rgb(238, 1, 129);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  

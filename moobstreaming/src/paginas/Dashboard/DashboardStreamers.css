@@ -1,0 +1,91 @@
+  
+  .artist-profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+
+.artist-sponsors-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+}
+  
+  .streamers-section {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .h2 {
+    margin-bottom: 10px;
+  }
+  
+  .thumbnails-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  
+  .sponsors-section,
+  .interested-companies-section {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sponsors-list,
+  .companies-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sponsors-list li,
+  .companies-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sponsors-list img,
+  .companies-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .leave-button,
+  .request-button {
+    background-color: rgb(238, 1, 129);
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+    background-color: #3e3e3e;
+  }
+  
